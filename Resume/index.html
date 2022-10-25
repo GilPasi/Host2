@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gil Pasi</title>
+    <link rel="stylesheet" href="indexStyle.css" type="text/css" />
+  </head>
+  <body>
+    <header>
+    </header>
+    <nav>
+      <a href="#knowledge" style="text-decoration: none"
+        ><div class="nav-button">Knowledge</div></a
+      >
+      <a href="#projects" style="text-decoration: none"
+      ><div class="nav-button">Projects</div></a
+      >
+      <a href="#about" style="text-decoration: none"
+      ><div class="nav-button">About</div></a
+      >
+    </nav>
+    
+  </article>
+  <article id="about">
+    <section class="about-description">
+      <img
+        src="images/profile.jpg"
+        alt="Gil Pasi's profile picture"
+        class="profile"
+      />
+      <p class="description">
+        Nice to meet you! <br />
+        My name is Gil Pasi. I am a student for
+        <span>computer science</span> BSc at Sapir college. I am endowed with
+        a great thirst for knowledge and <span>natural curiosity</span> Also I
+        am characterized by <span>deligence</span>, coopertion and desire for
+        efficiency.
+      </p>
+    </section>
+    <section class="about-indicators">
+      <div class="indicator" id="GPA"><line>96.04</line></div>
+      <div class="indicator" id="Major">Cyber course</div>
+      <div class="indicator" id="Academic Year">Second</div>
+    </section>
+  </article>
+    <article id="knowledge">
+      <section class="skills">
+        <div>
+          <h2>Languages</h2>
+        </div>
+
+        <div>
+          <ul>
+            <li><label for="prg1">Java</label></li>
+            <progress id="prg1" value="0.8" max="1"></progress>
+            <br /><br />
+            <li><label for="prg2">C++</label></li>
+            <progress id="prg2" value="0.8" max="1"></progress>
+            <br /><br />
+            <li><label for="prg3">Python</label></li>
+            <progress id="prg3" value="0.6" max="1"></progress>
+            <br /><br />
+          </ul>
+        </div>
+      </section>
+
+      <section class="skills">
+        <div>
+          <h2>Platforms</h2>
+        </div>
+
+        <div>
+          <ul>
+            <li><label for="prg5">Android Studio</label></li>
+            <progress id="prg5" value="0.4" max="1"></progress>
+
+            <br /><br />
+            <li><label for="prg6">XML</label></li>
+            <progress id="prg6" value="0.4" max="1"></progress>
+
+            <br /><br />
+            <li><label for="prg7">HTML-CSS</label></li>
+            <progress id="prg7" value="0.6" max="1"></progress>
+          </ul>
+        </div>
+      </section>
+    </article>
+
+    <!--Image background is seperate from the rest of the div-->
+
+    <article id="projects">
+      <h2 class="projects-title">Check out my projects</h2>
+      <div class="projects-content">
+        <section class="project" id="domino-project">
+          <h3 class="project-title">Domino</h3>
+          <hr  class="project-underline"/>
+
+          <a
+            href="https://github.com/GilPasi/Domino-Assignment"
+            target="_blank"
+          >
+            <img
+              src="images/domino2.jpg"
+              alt="A digital domino game"
+              class="project-picture"
+            />
+          </a>
+          <h4 class="project-segment">A Domino-like game</h4>
+
+          <p class="project-segment">
+            Final task on the object oriented course. Possible to play either
+            against the computer or vs another player. The program will
+            determine automatically which side you wish to add your stone. If
+            both options are possible, it will ask for guidance.
+          </p>
+
+          <div class="project-progress-100 project-segment" data-progress="100">
+            100%
+          </div>
+          <div class="means project-segment">C++</div>
+        </section>
+
+        <section class="project" id="Hunters">
+          <h3 class="project-title">Hunters</h3>
+          <hr class="project-underline" />
+          <a
+            href="https://github.com/GilPasi/Hunters/blob/Main/app/src/main/java/com/example/hunters/GamePlayActivity.java"
+            target="_blank"
+          >
+            <img
+              src="images/hunters.jpg"
+              alt="Forest themed memory game"
+              class="project-picture"
+            />
+          </a>
+          <h4 class="project-segment">Mobile application</h4>
+          <p class="project-segment">
+            A memory-like game, only that in each turn the player take a look in
+            3 diffrent cards. Also there are additional rules: a player can go
+            "hunt" or "sleep".The main sturcture and data have already
+            placed.The job left is to take care of the remaining bugs.
+          </p>
+          <div class="project-progress-50 project-segment" data-progress="50">
+            50%
+          </div>
+          <div class="means project-segment">Java</div>
+          <div class="means project-segment">Android Studio</div>
+          <div class="means project-segment">XML</div>
+        </section>
+
+        <section class="project" id="character-builder-project">
+          <h3 class="project-title">Character builder</h3>
+          <hr  class="project-underline"/>
+
+          <a
+            href="https://github.com/GilPasi/Character-sheet-builder"
+            target="_blank"
+          >
+            <img
+              src="images/character-builder.jpg"
+              alt="diffrent characters and form fields"
+              class="project-picture"
+            />
+          </a>
+          <h4 class="project-segment">D&D sheet builder</h4>
+          <p class="project-segment">
+            It could be used for a potential Dungeons & Dragons game. The
+            structure is actually a &ltform&gt tag that spans the entire page.
+            This Project was done by using HTML only as a summerized task and
+            therefore still not responsive.
+          </p>
+
+          <div class="project-progress-80 project-segment" data-progress="80">
+            80%
+          </div>
+          <div class="means project-segment">HTML</div>
+        </section>
+      </div>
+
+      <footer>
+        <div >Contact me !</div><div class="footer-highlight"></div>
+        <section class="socials">
+          <div class="media"><a href="https://github.com/GilPasi"><img src="images/GitHub logo.png"></a></div>
+          <div class="media"><a href="https://api.whatsapp.com/send/?phone=547620981&text&type=phone_number&app_absent=0"><img src="images/Whatsapp logo.png"></a></div>
+          <div class="media"><a href="mailto: gilpa439@gmail.com"><img src="images/Mail logo.png"></a></div>
+          <div class="media"><a href="https://www.linkedin.com/in/gil-pasi-3ab460202/"><img src="images/Linkedin logo.png"></a></div>
+
+        </section>
+      </footer>
+      
+  </body>
+</html>
